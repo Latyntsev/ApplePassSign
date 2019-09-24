@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="font-size: 16pt">
+	<div align="center" width="200">
+		<div align="left" style="width:300px">
+			<form id="uploadbanner" enctype="multipart/form-data" method="post" action="/sign">
+				<label for="pass">Pass</label><br>
+			   	<input id="pass" name="pass" type="file" /><br><br>
+			   	
+			   	<label for="wwrd">WWRD Certificate (.pem)</label><br>
+			   	<input id="wwrd" name="wwrd" type="file" /><br><br>
+			   	
+			   	<label for="certificate">Certificate (.p12)</label><br>
+			   	<input id="certificate" name="certificate" type="file" /><br><br>
+
+			   	<label for="certificate_password">WWRD Certificate</label><br>
+			   	<input id="certificate_password" name="certificate_password" type="text" /><br><br>
+			   	<input type="submit" value="Generate pkpass" id="submit" />
+			</form>	
+		</div>
+	</div>
+
+</body>
+</html>
